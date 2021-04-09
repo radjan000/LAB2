@@ -1,2 +1,4 @@
-package w2;public class main {
+package w2;
+
+public class main {
 }
