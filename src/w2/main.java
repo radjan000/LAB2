@@ -4,7 +4,9 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 public class Main {
+    
     public static void main(String[] args) {
+        
         ArrayList<Task> list = new ArrayList<>();
 
         Task task1 = new Task("Zad1", "Bla1", Task.Category.NEW, LocalDateTime.of(2021, 3, 5, 12, 00));
