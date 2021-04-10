@@ -6,10 +6,10 @@ import java.util.ArrayList;
 public class Main {
     
     public static void main(String[] args) {
-        
+
         ArrayList<Task> list = new ArrayList<>();
 
-        Task task1 = new Task("Zad1", "Bla1", Task.Category.NEW, LocalDateTime.of(2021, 3, 5, 12, 00));
+        Task task1 = new Task("Zad1", "Bla1", Task.Category.NEW, LocalDateTime.of(2021, 3, 5, 12, 1));
         Task task2 = new Task("Zad2", "Bla2", Task.Category.IN_PROGRESS, LocalDateTime.of(2020, 1, 2, 23, 59));
         Task task3 = new Task("Zad3", "Bla3", Task.Category.DONE, LocalDateTime.now());
         Task task4 = new Task("Zad4", "Bla4", Task.Category.NEW, LocalDateTime.now());
